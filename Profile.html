@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+     crossorigin="anonymous">
+     <link href="home.css" rel="stylesheet">
+     <link href="buttons.css" rel="stylesheet">
+  </head>
+  <style>
+    li{
+      margin-left: 20px;
+    }
+   </style>
+  <body style="background-color: #212529">
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto justify-content-center  ">
+            <li> <img src="./images/Ehsanslogo.png" width="75px" height="75px"> </li>
+            </ul>
+            <ul class="nav col-12 col-lg-auto mx-auto justify-content-center ">
+              <li><a href="Home.html" id="homenav" class="headers link-danger link-offset-2">Home</a></li>
+              <li><a href="Categories.html" id="categoriesnav" class="headers link-secondary link-offset-2">Categories</a></li>
+              <li><a href="Profile.html" id="profilenav" class="headers link-secondary mx-auto">Profile</a></li>
+              <li><a href="Products.html" id="productnav" class="headers link-secondary">Products</a></li>
+            <li><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+      <h1 style="color:rgb(255, 255, 255);margin-left: 45%;">Profile</h1>
+
+    <div class="d-flex gap-2 justify-content-center py-3" style="background-color: rgb(159, 151, 151);">
+      <div class="d-flex gap-2 justify-content-center py-3">
+        <button id="shop-button" class="buttonstotoggle btn btn-danger rounded-pill px-3" type="button">Shoplist</button>
+        <button id="order-button" class="buttonstotoggle btn btn-primary rounded-pill px-3" type="button">Orders</button>
+        <button id="settings-button" class="buttonstotoggle btn btn-primary rounded-pill px-3" type="button">Settings</button>
+      </div>
+    </div>
+    <div class="hiders p-5 text-center bg-body-tertiary rounded-3" style="display:block ;background-color:#212529">
+      <img class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="400" height="400" src="./images/Buying-photo.png"></img>
+      <h2 class="text-body-emphasis">Shoplist</h1>
+      <div class="d-inline-flex gap-2 mb-5">
+      </div>
+    </div>
+    <div class="hiders p-5 text-center bg-body-tertiary rounded-3" style="display:none;background-color:gray">
+      <img class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="400" height="400" src="./images/orders-post.jpg"></img>
+      <h2 class="text-body-emphasis">Orders</h1>
+      </div>
+    </div>
+    <div class="hiders p-5 text-center bg-body-tertiary rounded-3" style="display:none;background-color:gray">
+      <img class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="400" height="400" src="./images/settingspic.png"></img>
+      <h2 class="text-body-emphasis">Settings</h1>
+    </div>
+    <footer  class="py-3 my-4" style="background-color:white">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+    </footer>
+    <script src="profile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+    <script src="header.js"></script>
+  </body>
+</html>
